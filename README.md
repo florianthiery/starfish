@@ -10,3 +10,10 @@ Open source web-based SKOS +AMT keyword publishing tool
   * (A)-[narrower,p]->(B)-[narrower,q]->(C) => (A)-[narrower,p*q]->(C)
   * (A)-[match,p]->(B)-[match,q]->(C) => (A)-[match,p*q]->(C)
   * (A)-[related,p]->(B)-[related,q]->(C) => (A)-[related,p*q]->(C)
+  
+## technology
+
+* SQLITE
+* PHP
+* JAVAScript
+* Browser Triplestore
